@@ -10,11 +10,15 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "engines": {
+    "node": "18.16.1",
+    "npm": "7.19"
+  },
   "dependencies": {
     "cors": "^2.8.5",
     "express": "^4.18.2",
     "express-graphql": "^0.12.0",
-    "graphql": "^16.8.1",
+    "graphql": "^14.7.0",
     "pg": "^8.11.3",
     "sequelize": "^6.33.0"
   },
