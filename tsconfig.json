@@ -6,10 +6,8 @@
     "forceConsistentCasingInFileNames": true,
     "strict": true,
     "skipLibCheck": true,
-    "outDir": "./build", // Compiled JavaScript files will be output here
-    "rootDir": "./src" // This is where TypeScript looks for source files
+    "outDir": "./build",
+    "rootDir": "./src"
   },
-  "include": [
-    "src/**/*.ts" // This ensures TypeScript compiles all .ts files within the src directory
-  ]
+  "include": ["src/**/*.ts"]
 }
