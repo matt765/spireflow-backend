@@ -1,9 +1,9 @@
-type CountryRevenue = {
+type Country = {
   name: string;
   price: number;
 };
 
-export const revenuePerCountryData: CountryRevenue[] = [
+export const revenuePerCountryData: Country[] = [
   {
     name: "United States of America",
     price: 9155,

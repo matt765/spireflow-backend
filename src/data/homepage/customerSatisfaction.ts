@@ -1,11 +1,11 @@
-type CustomerSatisfaction = {
+type ProductSatisfaction = {
   brandName: string;
   customerSatisfaction: number;
   totalSales: number;
   numberOfOrders: number;
 };
 
-export const customerSatisfactionData: CustomerSatisfaction[] = [
+export const customerSatisfactionData: ProductSatisfaction[] = [
   {
     brandName: "iPhone 80A", 
     customerSatisfaction: 92.3,
@@ -27,7 +27,7 @@ export const customerSatisfactionData: CustomerSatisfaction[] = [
   {
     brandName: "OnePlus 30T",
     customerSatisfaction: 97.4,
-    totalSales: 550242,
+    totalSales: 55022,
     numberOfOrders: 2110,
   },
   {

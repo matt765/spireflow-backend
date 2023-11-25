@@ -1,12 +1,17 @@
-type YearOverviewCategory = {
+type SingleProductData = {
   name: string;
-  sales: { name: string; value: number }[];
-  revenue: { name: string; value: number }[];
-  unitsSold: { name: string; value: number }[];
-  returns: { name: string; value: number }[];
+  value: number;
+}
+
+type OverviewCategoryData = {
+  name: string;
+  sales: SingleProductData[];
+  revenue: SingleProductData[];
+  unitsSold: SingleProductData[];
+  returns: SingleProductData[];
 };
 
-export const yearOverviewData: YearOverviewCategory[] = [
+export const yearOverviewData: OverviewCategoryData[] = [
   {
     name: "Phones",
     sales: [

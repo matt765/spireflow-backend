@@ -7,7 +7,7 @@ type Asset = {
   status: string;
 };
 
-export const assetsData: Asset[] = [
+export const assetPerformanceData: Asset[] = [
   {
     name: "Off Running Inc.",
     industry: "tech",

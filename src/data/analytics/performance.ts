@@ -1,10 +1,10 @@
-type Performance = {
+type MonthPerformance = {
   month: string;
   sales: number;
   profit: number;
 };
 
-export const performanceData: Performance[] = [
+export const performanceData: MonthPerformance[] = [
   {
     month: "Jan 21",
     sales: 2890,

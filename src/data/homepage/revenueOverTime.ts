@@ -1,10 +1,10 @@
-type RevenueOverTime = {
+type Revenue = {
   date: string;
   websiteSales: number;
   inStoreSales: number;
 };
 
-export const revenueOverTimeData: RevenueOverTime[] = [
+export const revenueOverTimeData: Revenue[] = [
   {
     date: "Apr 23",
     websiteSales: 2200,

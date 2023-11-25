@@ -11,7 +11,7 @@ import { ordersData } from "../data/orders";
 import { customersData } from "../data/customers";
 import { eventsData } from "../data/events";
 import { productsData } from "../data/products";
-import { assetsData } from "../data/analytics/assetPerformance";
+import { assetPerformanceData } from "../data/analytics/assetPerformance";
 import { performanceData } from "../data/analytics/performance";
 import { revenuePerCountryData } from "../data/analytics/revenuePerCountry";
 import { todaySalesData } from "../data/analytics/todaySales";
@@ -73,8 +73,8 @@ const OrderType = new GraphQLObjectType({
 });
 
 // Analytics page
-const AssetType = new GraphQLObjectType({
-  name: "Asset",
+const AssetPerformanceType = new GraphQLObjectType({
+  name: "AssetPerformance",
   fields: () => ({
     name: { type: GraphQLString },
     industry: { type: GraphQLString },
@@ -199,7 +199,7 @@ const ProductCategoryType = new GraphQLObjectType({
 const AnalyticsType = new GraphQLObjectType({
   name: "Analytics",
   fields: () => ({
-    assets: { type: new GraphQLList(AssetType) },
+    assetPerformance: { type: new GraphQLList(AssetPerformanceType) },
     performance: { type: new GraphQLList(PerformanceType) },
     revenuePerCountry: { type: new GraphQLList(CountryRevenueType) },
     todaySales: { type: new GraphQLList(TodaySalesType) },
@@ -341,10 +341,10 @@ const RootQuery = new GraphQLObjectType({
       },
     },
     // Analytics page
-    assets: {
-      type: new GraphQLList(AssetType),
+    assetPerformance: {
+      type: new GraphQLList(AssetPerformanceType),
       resolve() {
-        return assetsData;
+        return assetPerformanceData;
       },
     },
     performance: {
@@ -387,7 +387,7 @@ const RootQuery = new GraphQLObjectType({
       type: AnalyticsType,
       resolve() {
         return {
-          assets: assetsData,
+          assets: assetPerformanceData,
           performance: performanceData,
           revenuePerCountry: revenuePerCountryData,
           todaySales: todaySalesData,

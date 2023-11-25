@@ -1,11 +1,11 @@
-type TodaySales = {
+type TodaySalesDataUnit = {
   hour: string;
   today: number;
   average: number;
   yesterday: number;
 };
 
-export const todaySalesData: TodaySales[] = [
+export const todaySalesData: TodaySalesDataUnit[] = [
   {
     hour: "00:00",
     today: 90,

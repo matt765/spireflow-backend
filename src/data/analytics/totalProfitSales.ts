@@ -1,9 +1,9 @@
-type TotalProfit = {
+type TotalMonthProfit = {
   month: string;
   sales: number;
 };
 
-export const totalProfitSalesData: TotalProfit[] = [
+export const totalProfitSalesData: TotalMonthProfit[] = [
   {
     month: "Jan 21",
     sales: 2890,
