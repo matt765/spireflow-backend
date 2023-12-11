@@ -24,7 +24,7 @@ export const productsData: ProductCategory[] = [
         name: "iPhone 80A",
         price: 2400,
         type: "Phone",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
         parameters: [
           { title: "Screen Size", value: "6.1 inches" },
           { title: "Processor", value: "A15 Bionic chip" },
@@ -53,7 +53,7 @@ export const productsData: ProductCategory[] = [
         name: "Samsung Galaxy Z99",
         price: 3400,
         type: "Phone",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
         parameters: [
           { title: "Screen Size", value: "6.2 inches" },
           { title: "Processor", value: "Exynos 2100" },
@@ -82,7 +82,7 @@ export const productsData: ProductCategory[] = [
         name: "Google Pixel X20",
         price: 1400,
         type: "Phone",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
         parameters: [
           { title: "Screen Size", value: "6 inches" },
           { title: "Processor", value: "Qualcomm Snapdragon 765G" },
@@ -105,7 +105,7 @@ export const productsData: ProductCategory[] = [
         name: "OnePlus 30T",
         price: 2500,
         type: "Phone",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
         parameters: [
           { title: "Screen Size", value: "6.55 inches" },
           { title: "Processor", value: "Qualcomm Snapdragon 865" },
@@ -128,7 +128,7 @@ export const productsData: ProductCategory[] = [
         name: "Xiaomi Mi 20X",
         price: 1600,
         type: "Phone",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
         parameters: [
           { title: "Screen Size", value: "6.67 inches" },
           { title: "Processor", value: "Qualcomm Snapdragon 870" },
@@ -159,7 +159,7 @@ export const productsData: ProductCategory[] = [
         name: "iPad Z50",
         price: 2400,
         type: "Tablet",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
         parameters: [
           { title: "Screen Size", value: "10.9 inches" },
           { title: "Processor", value: "A14 Bionic chip" },
@@ -191,7 +191,7 @@ export const productsData: ProductCategory[] = [
         name: "Samsung Galaxy Note S20",
         price: 2400,
         type: "Tablet",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
         parameters: [
           { title: "Screen Size", value: "12.4 inches" },
           { title: "Processor", value: "Qualcomm Snapdragon 865+" },
@@ -217,7 +217,7 @@ export const productsData: ProductCategory[] = [
         name: "Microsoft Surface X7",
         price: 2400,
         type: "Tablet",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
         parameters: [
           { title: "Screen Size", value: "13 inches" },
           { title: "Processor", value: "Microsoft SQ1" },
@@ -246,7 +246,7 @@ export const productsData: ProductCategory[] = [
         name: "Amazon Fire HDX 20",
         price: 2400,
         type: "Tablet",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
         parameters: [
           { title: "Screen Size", value: "8.9 inches" },
           { title: "Processor", value: "Quad-core Snapdragon 800" },
@@ -269,7 +269,7 @@ export const productsData: ProductCategory[] = [
         name: "Lenovo Tab Z10",
         price: 2400,
         type: "Tablet",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
         parameters: [
           { title: "Screen Size", value: "10.3 inches" },
           { title: "Processor", value: "MediaTek Helio P22T" },
@@ -300,7 +300,7 @@ export const productsData: ProductCategory[] = [
         name: "MacBook Air X",
         price: 2400,
         type: "Laptop",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
         parameters: [
           { title: "Screen Size", value: "13.3 inches" },
           { title: "Processor", value: "Apple M1 chip" },
@@ -326,7 +326,7 @@ export const productsData: ProductCategory[] = [
         name: "Dell XLS 30",
         price: 2400,
         type: "Laptop",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
         parameters: [
           { title: "Screen Size", value: "15.6 inches" },
           { title: "Processor", value: "Intel Core i7-10750H" },
@@ -352,7 +352,7 @@ export const productsData: ProductCategory[] = [
         name: "HP Phantom x500",
         price: 2400,
         type: "Laptop",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
         parameters: [
           { title: "Screen Size", value: "15.6 inches" },
           { title: "Processor", value: "AMD Ryzen 7 4800H" },
@@ -378,7 +378,7 @@ export const productsData: ProductCategory[] = [
         name: "Lenovo ThinkPad Z1 Ultra",
         price: 2400,
         type: "Laptop",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
         parameters: [
           { title: "Screen Size", value: "14 inches" },
           { title: "Processor", value: "Intel Core i5-10210U" },
@@ -404,7 +404,7 @@ export const productsData: ProductCategory[] = [
         name: "ASUS ZenBook Pro 30",
         price: 2400,
         type: "Laptop",
-        image: "https://supabase-storage-url/product.png",
+        image: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
         parameters: [
           { title: "Screen Size", value: "15.6 inches" },
           { title: "Processor", value: "Intel Core i7-9750H" },

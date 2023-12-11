@@ -10,7 +10,7 @@ type Customer = {
 
 export const customersData: Customer[] = [
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "John",
     lastName: "Doe",
     city: "New York",
@@ -19,7 +19,7 @@ export const customersData: Customer[] = [
     totalBuys: 2487,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Jane",
     lastName: "Doe",
     city: "Los Angeles",
@@ -28,7 +28,7 @@ export const customersData: Customer[] = [
     totalBuys: 3875,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Alex",
     lastName: "Smith",
     city: "Chicago",
@@ -37,7 +37,7 @@ export const customersData: Customer[] = [
     totalBuys: 1254,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Amélie",
     lastName: "Martin",
     city: "San Francisco",
@@ -46,7 +46,7 @@ export const customersData: Customer[] = [
     totalBuys: 3092,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "Henrik",
     lastName: "Larsen",
     city: "Houston",
@@ -55,7 +55,7 @@ export const customersData: Customer[] = [
     totalBuys: 4321,
   },
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "Sarah",
     lastName: "Johnson",
     city: "Miami",
@@ -64,7 +64,7 @@ export const customersData: Customer[] = [
     totalBuys: 2176,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Michael",
     lastName: "Brown",
     city: "Seattle",
@@ -73,7 +73,7 @@ export const customersData: Customer[] = [
     totalBuys: 3890,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Robert",
     lastName: "Williams",
     city: "Boston",
@@ -82,7 +82,7 @@ export const customersData: Customer[] = [
     totalBuys: 3210,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Claire",
     lastName: "Bernard",
     city: "Houston",
@@ -91,7 +91,7 @@ export const customersData: Customer[] = [
     totalBuys: 475,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "Anders",
     lastName: "Haugen",
     city: "Seattle",
@@ -100,7 +100,7 @@ export const customersData: Customer[] = [
     totalBuys: 1324,
   },
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "Jonas",
     lastName: "Johansen",
     city: "Berlin",
@@ -109,7 +109,7 @@ export const customersData: Customer[] = [
     totalBuys: 1500,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Emilie",
     lastName: "Halvorsen",
     city: "Hamburg",
@@ -118,7 +118,7 @@ export const customersData: Customer[] = [
     totalBuys: 2800,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Oskar",
     lastName: "Nilsen",
     city: "Munich",
@@ -127,7 +127,7 @@ export const customersData: Customer[] = [
     totalBuys: 2150,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Thea",
     lastName: "Lund",
     city: "Cologne",
@@ -136,7 +136,7 @@ export const customersData: Customer[] = [
     totalBuys: 1800,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "William",
     lastName: "Harris",
     city: "London",
@@ -145,7 +145,7 @@ export const customersData: Customer[] = [
     totalBuys: 3100,
   },
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "Emily",
     lastName: "Baker",
     city: "Manchester",
@@ -154,7 +154,7 @@ export const customersData: Customer[] = [
     totalBuys: 4100,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Magnus",
     lastName: "Bakken",
     city: "Berlin",
@@ -163,7 +163,7 @@ export const customersData: Customer[] = [
     totalBuys: 1950,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Sofie",
     lastName: "Eriksen",
     city: "Frankfurt",
@@ -172,7 +172,7 @@ export const customersData: Customer[] = [
     totalBuys: 2400,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Grace",
     lastName: "Robinson",
     city: "Oxford",
@@ -181,7 +181,7 @@ export const customersData: Customer[] = [
     totalBuys: 2900,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "Thomas",
     lastName: "Clark",
     city: "Liverpool",
@@ -190,7 +190,7 @@ export const customersData: Customer[] = [
     totalBuys: 3600,
   },
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "Jonas",
     lastName: "Johansen",
     city: "Berlin",
@@ -199,7 +199,7 @@ export const customersData: Customer[] = [
     totalBuys: 1500,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Emilie",
     lastName: "Halvorsen",
     city: "Hamburg",
@@ -208,7 +208,7 @@ export const customersData: Customer[] = [
     totalBuys: 2800,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Oskar",
     lastName: "Nilsen",
     city: "Munich",
@@ -217,7 +217,7 @@ export const customersData: Customer[] = [
     totalBuys: 2150,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Thea",
     lastName: "Lund",
     city: "Cologne",
@@ -226,7 +226,7 @@ export const customersData: Customer[] = [
     totalBuys: 1800,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "William",
     lastName: "Harris",
     city: "London",
@@ -235,7 +235,7 @@ export const customersData: Customer[] = [
     totalBuys: 3100,
   },
   {
-    photo: "https://supabase-storage-url/user1.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user1_wgcdiv.png",
     firstName: "Emily",
     lastName: "Baker",
     city: "Manchester",
@@ -244,7 +244,7 @@ export const customersData: Customer[] = [
     totalBuys: 4100,
   },
   {
-    photo: "https://supabase-storage-url/user2.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330266/spireflow/user2_xmli04.png",
     firstName: "Magnus",
     lastName: "Bakken",
     city: "Berlin",
@@ -253,7 +253,7 @@ export const customersData: Customer[] = [
     totalBuys: 1950,
   },
   {
-    photo: "https://supabase-storage-url/user3.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330268/spireflow/user3_odzqfk.png",
     firstName: "Sofie",
     lastName: "Eriksen",
     city: "Frankfurt",
@@ -262,7 +262,7 @@ export const customersData: Customer[] = [
     totalBuys: 2400,
   },
   {
-    photo: "https://supabase-storage-url/user4.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330269/spireflow/user4_e91vts.png",
     firstName: "Grace",
     lastName: "Robinson",
     city: "Oxford",
@@ -271,7 +271,7 @@ export const customersData: Customer[] = [
     totalBuys: 2900,
   },
   {
-    photo: "https://supabase-storage-url/user5.png",
+    photo: "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330270/spireflow/user5_htcbsc.png",
     firstName: "Thomas",
     lastName: "Clark",
     city: "Liverpool",
