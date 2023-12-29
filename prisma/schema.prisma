@@ -1,0 +1,189 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider          = "postgresql"
+  url               = env("DATABASE_URL")
+  shadowDatabaseUrl = env("SHADOW_DATABASE_URL")
+}
+
+model Asset {
+  id        String @id @default(uuid())
+  name      String
+  industry  String
+  sales     Int
+  delta     Float
+  deltaType String
+  status    String
+
+  @@map("assets")
+}
+
+model BestSellingProduct {
+  id     String @id @default(uuid())
+  name   String
+  profit Float
+
+  @@map("best_selling_products")
+}
+
+model Customer {
+  id        String @id @default(uuid())
+  photo     String
+  firstName String
+  lastName  String
+  city      String
+  country   String
+  phone     String
+  totalBuys Int
+
+  @@map("customers")
+}
+
+model CustomerSatisfaction {
+  id                   String @id @default(uuid())
+  brandName            String
+  customerSatisfaction Float
+  totalSales           Int
+  numberOfOrders       Int
+
+  @@map("customer_satisfaction")
+}
+
+model Event {
+  id      String @id @default(uuid())
+  eventId Int
+  title   String
+
+  @@map("events")
+}
+
+model HomeSmallCard {
+  id          String  @id @default(uuid())
+  title       String
+  metric      String
+  metricPrev  String
+  delta       String
+  deltaType   String
+  color       String
+  increased   Boolean
+  changeValue Float
+  changeText  String
+  chartData   Json
+
+  @@map("home_small_cards")
+}
+
+model MonthPerformance {
+  id     String @id @default(uuid())
+  month  String
+  sales  Float
+  profit Float
+
+  @@map("month_performance")
+}
+
+model Order {
+  id           String @id @default(uuid())
+  orderId      Int
+  productName  String
+  user         String
+  price        Float
+  deliveryType String
+  date         String
+  status       String
+
+  @@map("orders")
+}
+
+model Product {
+  id         String @id @default(uuid())
+  name       String
+  price      Float
+  type       String
+  image      String
+  parameters Json
+
+  @@map("products")
+}
+
+model RevenuePerCountry {
+  id    String @id @default(uuid())
+  name  String
+  price Float
+
+  @@map("revenue_per_country")
+}
+
+model Region {
+  id        String @id @default(uuid())
+  name      String
+  region    String
+  sales     Int
+  delta     String
+  deltaType String
+
+  @@map("regions")
+}
+
+model RevenueOverTime {
+  id           String @id @default(uuid())
+  date         String
+  websiteSales Int
+  inStoreSales Int
+
+  @@map("revenue_over_time")
+}
+
+model TodaySales {
+  id        String @id @default(uuid())
+  hour      String
+  today     Int
+  average   Int
+  yesterday Int
+
+  @@map("today_sales")
+}
+
+model TotalProfitMonth {
+  id    String @id @default(uuid())
+  month String
+  sales Float
+
+  @@map("total_profit_months")
+}
+
+model TotalProfitProduct {
+  id     String @id @default(uuid())
+  title  String
+  value  Float
+  metric String
+
+  @@map("total_profit_products")
+}
+
+model Trader {
+  id        String @id @default(uuid())
+  name      String
+  leads     Int
+  sales     String
+  quota     String
+  variance  String
+  region    String
+  status    String
+  deltaType String
+
+  @@map("traders")
+}
+
+model YearOverview {
+  id        String @id @default(uuid())
+  name      String
+  sales     Json
+  revenue   Json
+  unitsSold Json
+  returns   Json
+
+  @@map("year_overview")
+}
