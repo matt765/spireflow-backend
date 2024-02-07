@@ -13,7 +13,7 @@ export const bestSellingProductsData: BestSellingProduct[] = [
     profit: 6445,
   },
   {
-    name: "Amazon Fire HDX 20",
+    name: "Dell XLS 30",
     profit: 3743,
   },
 ];

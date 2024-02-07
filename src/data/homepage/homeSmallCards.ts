@@ -63,7 +63,7 @@ export const homeSmallCardsData: HomeSmallCard[] = [
   },
   {
     title: "Traffic",
-    metric: "1,072",
+    metric: "12072",
     metricPrev: "856",
     delta: "25.3%",
     deltaType: "moderateIncrease",
@@ -85,7 +85,7 @@ export const homeSmallCardsData: HomeSmallCard[] = [
   },
   {
     title: "Customers",
-    metric: "1,072",
+    metric: "1042",
     metricPrev: "856",
     delta: "25.3%",
     deltaType: "moderateIncrease",

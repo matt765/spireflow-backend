@@ -6,47 +6,47 @@ type MonthPerformance = {
 
 export const performanceData: MonthPerformance[] = [
   {
-    month: "Jan 21",
+    month: "Jan",
     sales: 2890,
     profit: 2400,
   },
   {
-    month: "Feb 21",
+    month: "Feb",
     sales: 1890,
     profit: 1398,
   },
   {
-    month: "Jan 21",
+    month: "Mar",
     sales: 2890,
     profit: 2400,
   },
   {
-    month: "Feb 21",
+    month: "Apr",
     sales: 1890,
     profit: 1398,
   },
   {
-    month: "Jan 21",
+    month: "May",
     sales: 2890,
     profit: 2400,
   },
   {
-    month: "Feb 21",
+    month: "Jun",
     sales: 1890,
     profit: 1398,
   },
   {
-    month: "Jan 21",
+    month: "Jul",
     sales: 2890,
     profit: 2400,
   },
   {
-    month: "Feb 21",
+    month: "Aug",
     sales: 1890,
     profit: 1398,
   },
   {
-    month: "Jan 22",
+    month: "Sep",
     sales: 3890,
     profit: 2980,
   },
