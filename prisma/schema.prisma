@@ -104,6 +104,7 @@ model Product {
   type       String
   image      String
   parameters Json
+  metrics    Json
 
   @@map("products")
 }

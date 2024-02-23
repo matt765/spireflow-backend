@@ -124,6 +124,7 @@ export const ProductType = new GraphQLObjectType({
     type: { type: GraphQLString },
     image: { type: GraphQLString },
     parameters: { type: GraphQLJSON },
+    metrics: { type: GraphQLJSON },
   }),
 });
 

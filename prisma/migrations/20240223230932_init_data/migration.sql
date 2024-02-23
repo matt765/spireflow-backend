@@ -103,6 +103,7 @@ CREATE TABLE "products" (
     "type" TEXT NOT NULL,
     "image" TEXT NOT NULL,
     "parameters" JSONB NOT NULL,
+    "metrics" JSONB NOT NULL,
 
     CONSTRAINT "products_pkey" PRIMARY KEY ("id")
 );
