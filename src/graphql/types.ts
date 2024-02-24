@@ -119,6 +119,7 @@ export const ProductType = new GraphQLObjectType({
   name: "Product",
   fields: () => ({
     id: { type: GraphQLString },
+    productId: { type: GraphQLString },
     name: { type: GraphQLString },
     price: { type: GraphQLFloat },
     type: { type: GraphQLString },

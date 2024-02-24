@@ -99,6 +99,7 @@ model Order {
 
 model Product {
   id         String @id @default(uuid())
+  productId  String
   name       String
   price      Float
   type       String

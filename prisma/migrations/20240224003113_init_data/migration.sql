@@ -98,6 +98,7 @@ CREATE TABLE "orders" (
 -- CreateTable
 CREATE TABLE "products" (
     "id" TEXT NOT NULL,
+    "productId" TEXT NOT NULL,
     "name" TEXT NOT NULL,
     "price" DOUBLE PRECISION NOT NULL,
     "type" TEXT NOT NULL,
