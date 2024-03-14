@@ -26,7 +26,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Phone",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448320/phone_hfscvi.png",
     parameters: [
       { title: "Screen Size", value: "6.1 inches" },
       { title: "Processor", value: "A15 Bionic chip" },
@@ -63,7 +63,7 @@ export const productsData: Product[] = [
     price: 3400,
     type: "Phone",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448320/phone_hfscvi.png",
     parameters: [
       { title: "Screen Size", value: "6.2 inches" },
       { title: "Processor", value: "Exynos 2100" },
@@ -100,7 +100,7 @@ export const productsData: Product[] = [
     price: 1400,
     type: "Phone",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448320/phone_hfscvi.png",
     parameters: [
       { title: "Screen Size", value: "6 inches" },
       { title: "Processor", value: "Qualcomm Snapdragon 765G" },
@@ -131,7 +131,7 @@ export const productsData: Product[] = [
     price: 2500,
     type: "Phone",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448320/phone_hfscvi.png",
     parameters: [
       { title: "Screen Size", value: "6.55 inches" },
       { title: "Processor", value: "Qualcomm Snapdragon 865" },
@@ -162,7 +162,7 @@ export const productsData: Product[] = [
     price: 1600,
     type: "Phone",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/phone_knj3g4.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448320/phone_hfscvi.png",
     parameters: [
       { title: "Screen Size", value: "6.67 inches" },
       { title: "Processor", value: "Qualcomm Snapdragon 870" },
@@ -196,7 +196,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
     parameters: [
       { title: "Screen Size", value: "10.9 inches" },
       { title: "Processor", value: "A14 Bionic chip" },
@@ -236,7 +236,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
     parameters: [
       { title: "Screen Size", value: "12.4 inches" },
       { title: "Processor", value: "Qualcomm Snapdragon 865+" },
@@ -270,7 +270,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
     parameters: [
       { title: "Screen Size", value: "13 inches" },
       { title: "Processor", value: "Microsoft SQ1" },
@@ -307,7 +307,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
     parameters: [
       { title: "Screen Size", value: "8.9 inches" },
       { title: "Processor", value: "Quad-core Snapdragon 800" },
@@ -338,7 +338,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330257/spireflow/tablet_norqnr.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
     parameters: [
       { title: "Screen Size", value: "10.3 inches" },
       { title: "Processor", value: "MediaTek Helio P22T" },
@@ -373,7 +373,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Laptop",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448319/laptop_s8p3uy.png",
     parameters: [
       { title: "Screen Size", value: "13.3 inches" },
       { title: "Processor", value: "Apple M1 chip" },
@@ -407,7 +407,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Laptop",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448319/laptop_s8p3uy.png",
     parameters: [
       { title: "Screen Size", value: "15.6 inches" },
       { title: "Processor", value: "Intel Core i7-10750H" },
@@ -441,7 +441,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Laptop",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448319/laptop_s8p3uy.png",
     parameters: [
       { title: "Screen Size", value: "15.6 inches" },
       { title: "Processor", value: "AMD Ryzen 7 4800H" },
@@ -475,7 +475,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Laptop",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448319/laptop_s8p3uy.png",
     parameters: [
       { title: "Screen Size", value: "14 inches" },
       { title: "Processor", value: "Intel Core i5-10210U" },
@@ -509,7 +509,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Laptop",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1702330253/spireflow/laptop_gmo3uc.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448319/laptop_s8p3uy.png",
     parameters: [
       { title: "Screen Size", value: "15.6 inches" },
       { title: "Processor", value: "Intel Core i7-9750H" },
