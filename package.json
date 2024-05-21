@@ -1,6 +1,6 @@
 {
-  "name": "bbb",
-  "version": "1.0.0",
+  "name": "spireflow-backend",
+  "version": "1.0.1",
   "description": "Spireflow is an open source e-commerce analytic dashboard application",
   "author": {
     "name": "Mateusz Wyrębek (matt765)",
@@ -14,7 +14,7 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "license": "ISC",
+  "license": "MPL-2.0",
   "engines": {
     "node": "18.16.1",
     "npm": "7.19"
