@@ -196,7 +196,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1716282217/tablet_ghitxq.png",
     parameters: [
       { title: "Screen Size", value: "10.9 inches" },
       { title: "Processor", value: "A14 Bionic chip" },
@@ -236,7 +236,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1716282217/tablet_ghitxq.png",
     parameters: [
       { title: "Screen Size", value: "12.4 inches" },
       { title: "Processor", value: "Qualcomm Snapdragon 865+" },
@@ -270,7 +270,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1716282217/tablet_ghitxq.png",
     parameters: [
       { title: "Screen Size", value: "13 inches" },
       { title: "Processor", value: "Microsoft SQ1" },
@@ -307,7 +307,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1716282217/tablet_ghitxq.png",
     parameters: [
       { title: "Screen Size", value: "8.9 inches" },
       { title: "Processor", value: "Quad-core Snapdragon 800" },
@@ -338,7 +338,7 @@ export const productsData: Product[] = [
     price: 2400,
     type: "Tablet",
     image:
-      "https://res.cloudinary.com/dvor7ybke/image/upload/v1710448321/tablet_skmue6.png",
+      "https://res.cloudinary.com/dvor7ybke/image/upload/v1716282217/tablet_ghitxq.png",
     parameters: [
       { title: "Screen Size", value: "10.3 inches" },
       { title: "Processor", value: "MediaTek Helio P22T" },

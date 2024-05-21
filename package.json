@@ -1,7 +1,12 @@
 {
   "name": "bbb",
   "version": "1.0.0",
-  "description": "",
+  "description": "Spireflow is an open source e-commerce analytic dashboard application",
+  "author": {
+    "name": "Mateusz Wyrębek (matt765)",
+    "email": "mateusz.wyrebek@gmail.com",
+    "url": "https://matt765-portfolio.vercel.app/"
+  },
   "main": "index.js",
   "scripts": {
     "build": "tsc",
@@ -9,7 +14,6 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [],
-  "author": "",
   "license": "ISC",
   "engines": {
     "node": "18.16.1",

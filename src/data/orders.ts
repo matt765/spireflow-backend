@@ -47,7 +47,7 @@ export const ordersData: Order[] = [
   },
   {
     orderId: 87461,
-    productName: "Apple Watch Series 6",
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -100,7 +100,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 88321,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -109,7 +109,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 48217,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -118,8 +118,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 74908,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -154,7 +154,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 52221,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -163,7 +163,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 16217,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -172,8 +172,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 92908,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -181,7 +181,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 12321,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -190,7 +190,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 46637,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -199,8 +199,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 92655,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -208,7 +208,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 79321,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -217,7 +217,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 46268,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -227,7 +227,7 @@ export const ordersData: Order[] = [
   },
   {
     orderId: 21908,
-    productName: "Apple Watch Series 6",
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -235,7 +235,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 42821,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -244,7 +244,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 11217,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -253,8 +253,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 91908,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -262,7 +262,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 97321,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -271,7 +271,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 46227,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -280,8 +280,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 51708,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -289,7 +289,7 @@ export const ordersData: Order[] = [
     status: "In Transit",
   },
   {
-    orderId: 57321,
+    orderId: 27321,
     productName: "Beats Solo Pro",
     user: "Alex Smith",
     price: 299,
@@ -298,7 +298,7 @@ export const ordersData: Order[] = [
     status: "Shipped",
   },
   {
-    orderId: 46217,
+    orderId: 98217,
     productName: "iPad Pro",
     user: "Emily Davis",
     price: 799,
@@ -307,8 +307,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 48908,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
@@ -334,8 +334,8 @@ export const ordersData: Order[] = [
     status: "Delivered",
   },
   {
-    orderId: 21908,
-    productName: "Apple Watch Series 6",
+    orderId: 52808,
+    productName: "Apple Watch 6",
     user: "Daniel Lee",
     price: 399,
     deliveryType: "Standard shipping",
