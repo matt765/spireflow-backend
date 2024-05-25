@@ -1,11 +1,48 @@
-npx prisma migrate dev --name init_data
+# Spireflow backend
 
-heroku pg:psql database_name -app app_name
-\dt - display all tables
-\d table_name - display columns and types of single table
-SELECT * from table_name; - display entire content of table
+Open source backend for Spireflow application
 
-npx prisma studio
-npx prisma db seed
-npx prisma generate
-npx prisma migrate reset
+## Tech stack
+
+NodeJS, Express, PostgreSQL, Prisma, GraphQL
+
+## Frontend
+
+This backend application fetches data from PostgreSQL database and sends it to NextJS frontend application, which is also open-source
+
+[https://github.com/matt765/spireflow](https://github.com/matt765/spireflow)
+
+## Project Structure
+
+```
+├── src
+│   ├── assets
+│   │   ├── icons
+│   │   └── images
+│   ├── data
+│   │   ├── analytics
+│   │   └── homepage
+│   ├── graphql
+│   └── server.ts│
+└── package.json
+```
+
+## How to run
+
+You can deploy this backend on BaaS services like AWS, Back4App, Heroku or DigitalOcean
+
+All commands are run from the root of the project, from a terminal.
+
+| Command         | Action                            |
+| :-------------- | :-------------------------------- |
+| `npm install`   | Installs dependencies             |
+| `npm run build` | Builds your production site       |
+| `npm start`     | Starts server at `localhost:3000` |
+
+Prisma
+
+| Command               | Action                                   |
+| :-------------------- | :--------------------------------------- |
+| `npx prisma studio`   | Opens Prisma Studio                      |
+| `npx prisma db seed`  | Seeds database with data                 |
+| `npx prisma generate` | Reads schema and generates Prisma Client |
