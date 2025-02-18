@@ -8,7 +8,7 @@ NodeJS, Express, PostgreSQL, Prisma, GraphQL
 
 ## Frontend
 
-This backend application fetches data from PostgreSQL database and sends it to NextJS frontend application, which is also open-source
+This backend application fetches data from PostgreSQL database and sends it to associated NextJS frontend application
 
 [https://github.com/matt765/spireflow](https://github.com/matt765/spireflow)
 
