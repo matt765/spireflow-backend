@@ -16,6 +16,7 @@ CREATE TABLE "best_selling_products" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
     "profit" DOUBLE PRECISION NOT NULL,
+    "revenue" DOUBLE PRECISION NOT NULL,
 
     CONSTRAINT "best_selling_products_pkey" PRIMARY KEY ("id")
 );
@@ -189,10 +190,30 @@ CREATE TABLE "traders" (
 CREATE TABLE "year_overview" (
     "id" TEXT NOT NULL,
     "name" TEXT NOT NULL,
-    "sales" JSONB NOT NULL,
-    "revenue" JSONB NOT NULL,
-    "unitsSold" JSONB NOT NULL,
-    "returns" JSONB NOT NULL,
+    "phones" INTEGER NOT NULL,
+    "tablets" INTEGER NOT NULL,
+    "laptops" INTEGER NOT NULL,
 
     CONSTRAINT "year_overview_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "market_metrics" (
+    "id" TEXT NOT NULL,
+    "metric" TEXT NOT NULL,
+    "phones" INTEGER NOT NULL,
+    "laptops" INTEGER NOT NULL,
+    "maxValue" INTEGER NOT NULL,
+
+    CONSTRAINT "market_metrics_pkey" PRIMARY KEY ("id")
+);
+
+-- CreateTable
+CREATE TABLE "revenue_distribution" (
+    "id" TEXT NOT NULL,
+    "category" TEXT NOT NULL,
+    "inStore" INTEGER NOT NULL,
+    "online" INTEGER NOT NULL,
+
+    CONSTRAINT "revenue_distribution_pkey" PRIMARY KEY ("id")
 );

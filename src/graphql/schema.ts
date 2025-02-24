@@ -10,10 +10,12 @@ import {
   EventType,
   HomeSmallCardType,
   HomepageType,
+  MarketMetricsType,
   MonthPerformanceType,
   OrderType,
   ProductType,
   RegionType,
+  RevenueDistributionType,
   RevenueOverTimeType,
   RevenuePerCountryType,
   TodaySalesType,
@@ -130,34 +132,49 @@ const RootQuery = new GraphQLObjectType({
         return prisma.yearOverview.findMany();
       },
     },
+    marketMetrics: {
+      type: new GraphQLList(MarketMetricsType),
+      resolve() {
+        return prisma.marketMetrics.findMany();
+      },
+    },
+    revenueDistribution: {
+      type: new GraphQLList(RevenueDistributionType),
+      resolve() {
+        return prisma.revenueDistribution.findMany();
+      },
+    },
     analytics: {
       type: AnalyticsType,
       resolve() {
         return Promise.all([
           prisma.asset.findMany(),
           prisma.monthPerformance.findMany(),
-          prisma.revenuePerCountry.findMany(),
           prisma.todaySales.findMany(),
           prisma.totalProfitProduct.findMany(),
           prisma.totalProfitMonth.findMany(),
           prisma.yearOverview.findMany(),
+          prisma.marketMetrics.findMany(),
+          prisma.revenueDistribution.findMany(),
         ]).then(
           ([
             assets,
             performance,
-            revenuePerCountry,
             todaySales,
             totalProfitProducts,
             totalProfitSales,
             yearOverview,
+            marketMetrics,
+            revenueDistribution,
           ]) => ({
             assetPerformance: assets,
             performance,
-            revenuePerCountry,
             todaySales,
             totalProfitProducts,
             totalProfitSales,
             yearOverview,
+            marketMetrics,
+            revenueDistribution,
           })
         );
       },
@@ -172,6 +189,7 @@ const RootQuery = new GraphQLObjectType({
           prisma.region.findMany(),
           prisma.revenueOverTime.findMany(),
           prisma.trader.findMany(),
+          prisma.revenuePerCountry.findMany(),
         ]).then(
           ([
             bestSellingProducts,
@@ -180,6 +198,7 @@ const RootQuery = new GraphQLObjectType({
             regions,
             revenueOverTime,
             tradersTable,
+            revenuePerCountry,
           ]) => ({
             bestSellingProducts,
             customerSatisfaction,
@@ -187,6 +206,7 @@ const RootQuery = new GraphQLObjectType({
             regions,
             revenueOverTime,
             tradersTable,
+            revenuePerCountry,
           })
         );
       },

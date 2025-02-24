@@ -30,6 +30,7 @@ export const BestSellingProductType = new GraphQLObjectType({
     id: { type: GraphQLString },
     name: { type: GraphQLString },
     profit: { type: GraphQLFloat },
+    revenue: { type: GraphQLFloat },
   }),
 });
 
@@ -218,10 +219,32 @@ export const YearOverviewType = new GraphQLObjectType({
   fields: () => ({
     id: { type: GraphQLString },
     name: { type: GraphQLString },
-    sales: { type: GraphQLJSON },
-    revenue: { type: GraphQLJSON },
-    unitsSold: { type: GraphQLJSON },
-    returns: { type: GraphQLJSON },
+    phones: { type: GraphQLInt },
+    tablets: { type: GraphQLInt },
+    laptops: { type: GraphQLInt },
+  }),
+});
+
+// MarketMetrics Type
+export const MarketMetricsType = new GraphQLObjectType({
+  name: "MarketMetrics",
+  fields: () => ({
+    id: { type: GraphQLString },
+    metric: { type: GraphQLString },
+    phones: { type: GraphQLInt },
+    maxValue: { type: GraphQLInt },
+    laptops: { type: GraphQLInt },
+  }),
+});
+
+// RevenueDistribution Type
+export const RevenueDistributionType = new GraphQLObjectType({
+  name: "RevenueDistribution",
+  fields: () => ({
+    id: { type: GraphQLString },
+    category: { type: GraphQLString },
+    inStore: { type: GraphQLInt },
+    online: { type: GraphQLInt },
   }),
 });
 
@@ -230,11 +253,12 @@ export const AnalyticsType = new GraphQLObjectType({
   fields: () => ({
     assetPerformance: { type: new GraphQLList(AssetType) },
     performance: { type: new GraphQLList(MonthPerformanceType) },
-    revenuePerCountry: { type: new GraphQLList(RevenuePerCountryType) },
     todaySales: { type: new GraphQLList(TodaySalesType) },
     totalProfitProducts: { type: new GraphQLList(TotalProfitProductsType) },
     totalProfitSales: { type: new GraphQLList(TotalProfitMonthType) },
     yearOverview: { type: new GraphQLList(YearOverviewType) },
+    marketMetrics: { type: new GraphQLList(MarketMetricsType) },
+    revenueDistribution: { type: new GraphQLList(RevenueDistributionType) },
   }),
 });
 
@@ -247,5 +271,6 @@ export const HomepageType = new GraphQLObjectType({
     regions: { type: new GraphQLList(RegionType) },
     revenueOverTime: { type: new GraphQLList(RevenueOverTimeType) },
     tradersTable: { type: new GraphQLList(TraderType) },
+    revenuePerCountry: { type: new GraphQLList(RevenuePerCountryType) },
   }),
 });

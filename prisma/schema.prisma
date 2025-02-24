@@ -21,9 +21,10 @@ model Asset {
 }
 
 model BestSellingProduct {
-  id     String @id @default(uuid())
-  name   String
-  profit Float
+  id      String @id @default(uuid())
+  name    String
+  profit  Float
+  revenue Float
 
   @@map("best_selling_products")
 }
@@ -180,12 +181,30 @@ model Trader {
 }
 
 model YearOverview {
-  id        String @id @default(uuid())
-  name      String
-  sales     Json
-  revenue   Json
-  unitsSold Json
-  returns   Json
+  id      String @id @default(uuid())
+  name    String
+  phones  Int
+  laptops Int
+  tablets Int
 
   @@map("year_overview")
+}
+
+model MarketMetrics {
+  id       String @id @default(uuid())
+  metric   String
+  phones   Int
+  laptops  Int
+  maxValue Int
+
+  @@map("market_metrics")
+}
+
+model RevenueDistribution {
+  id       String @id @default(uuid())
+  category String
+  inStore  Int
+  online   Int
+
+  @@map("revenue_distribution")
 }

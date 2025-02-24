@@ -1,6 +1,6 @@
 # Spireflow backend
 
-Open source backend for Spireflow application
+Open source backend for Spireflow dashboard
 
 ## Tech stack
 
@@ -8,7 +8,7 @@ NodeJS, Express, PostgreSQL, Prisma, GraphQL
 
 ## Frontend
 
-This backend application fetches data from PostgreSQL database and sends it to associated NextJS frontend application
+This backend fetches data from PostgreSQL database and sends it to associated NextJS frontend application
 
 [https://github.com/matt765/spireflow](https://github.com/matt765/spireflow)
 
@@ -41,8 +41,9 @@ All commands are run from the root of the project, from a terminal.
 
 Prisma
 
-| Command               | Action                                   |
-| :-------------------- | :--------------------------------------- |
-| `npx prisma studio`   | Opens Prisma Studio                      |
-| `npx prisma db seed`  | Seeds database with data                 |
-| `npx prisma generate` | Reads schema and generates Prisma Client |
+| Command                      | Action                                   |
+| :--------------------------- | :--------------------------------------- |
+| `npx prisma studio`          | Opens Prisma Studio                      |
+| `npx prisma db seed`         | Seeds database with data                 |
+| `npx prisma migrate deploy`  | Applies all pending migrations           |
+| `npx prisma generate`        | Reads schema and generates Prisma Client |
