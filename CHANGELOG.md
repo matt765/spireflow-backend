@@ -10,3 +10,12 @@
 - add license
 - add contributing guidelines
 
+## 1.0.2 (21-05-2025)
+
+- add Dockerfile
+- update all packages
+- add new tables
+- change license to MIT
+- add env.example file
+
+
