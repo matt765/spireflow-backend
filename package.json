@@ -1,7 +1,8 @@
 {
   "name": "spireflow-backend",
-  "version": "1.0.1",
-  "description": "Spireflow is an open source and free e-commerce dashboard template",
+  "version": "1.0.2",
+  "description": "Open source backend for Spireflow dashboard",
+  "license": "MIT",
   "author": {
     "name": "matt765",
     "email": "mateusz.wyrebek@gmail.com",
@@ -9,35 +10,30 @@
   },
   "main": "build/server.js",
   "scripts": {
-    "postinstall": "prisma generate",
+    "postinstall": "echo 'Skipping prisma generate during install'",
     "build": "tsc",
     "start": "node ./build/server.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "license": "MPL-2.0",
   "engines": {
     "node": ">=18.18.0",
-    "npm": "7.19"
+    "npm": ">=7.19"
   },
   "dependencies": {
-    "@prisma/client": "^6.4.1",
-    "@prisma/extension-accelerate": "^0.6.2",
+    "@prisma/client": "^6.8.2",
+    "@prisma/extension-accelerate": "^2.0.0",
     "cors": "^2.8.5",
-    "express": "^4.18.2",
+    "express": "^5.1.0",
     "express-graphql": "^0.12.0",
-    "graphql": "^14.7.0",
+    "graphql": "^15.8.0",
     "graphql-type-json": "^0.3.2",
-    "pg": "^8.11.3"
-  },
-  "devDependencies": {
-    "@types/cors": "^2.8.16",
-    "@types/express": "^4.17.19",
-    "@types/graphql": "^14.5.0",
-    "@types/node": "^20.10.5",
-    "prisma": "^6.4.1",
+    "pg": "^8.16.0",
+    "@types/cors": "^2.8.18",
+    "@types/express": "^5.0.2",
+    "@types/node": "^22.15.21",
+    "prisma": "^6.8.2",
     "ts-node": "^10.9.2",
-    "typescript": "^5.3.3"
+    "typescript": "^5.8.3"
   },
   "prisma": {
     "seed": "ts-node prisma/seed.ts"
