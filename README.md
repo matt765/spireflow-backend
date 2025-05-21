@@ -23,7 +23,7 @@ This backend fetches data from PostgreSQL database and sends it to associated Ne
 │   │   ├── analytics
 │   │   └── homepage
 │   ├── graphql
-│   └── server.ts│
+│   └── server.ts
 └── package.json
 ```
 
@@ -49,7 +49,7 @@ Prisma
 | `npx prisma db seed`                 | Seeds database with data                               |
 | `npx prisma studio`                  | Opens Prisma Studio                                    |
 
-## Docker Support
+## Docker support
 
 You can run this application in a containerized environment using Docker, which ensures consistent deployment across different environments and simplifies the setup process by bundling all dependencies together.
 
